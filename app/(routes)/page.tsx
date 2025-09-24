@@ -13,8 +13,7 @@ const HomePage = async () => {
 
   // Nami's billboard sample
   // const billboard = await getBillboard("5d9cd847-34c1-4f12-992a-3b125c01ab09");
-  const billboard = await getBillboard
-  ("71159c99-eeb6-47e1-97f8-29a8288d0d5e");
+  const billboard = await getBillboard();
 
   return (
     <Container>
