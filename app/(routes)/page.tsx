@@ -12,7 +12,9 @@ const HomePage = async () => {
   // const billboard = await getBillboard("a9cf881a-2ba7-4193-97b4-6d1f916e34cb");
 
   // Nami's billboard sample
-  const billboard = await getBillboard("5d9cd847-34c1-4f12-992a-3b125c01ab09");
+  // const billboard = await getBillboard("5d9cd847-34c1-4f12-992a-3b125c01ab09");
+  const billboard = await getBillboard
+  ("71159c99-eeb6-47e1-97f8-29a8288d0d5e");
 
   return (
     <Container>
